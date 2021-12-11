@@ -29,7 +29,7 @@ module.exports = welcome = async (geps, anu) => {
            mdata = await geps.groupMetadata(anu.jid)
            num = anu.participants[0]
            console.log(anu)
-           teks = `─ 「 *PROMOTE DETECT* 」 ─\n\n`
+           teks = `─ 「 *PROMOTE DETECTED* 」 ─\n\n`
            teks += `⬡ *USER :* @${num.split('@')[0]}\n`
            teks += `⬡ *NOMOR :* ${num.replace('@s.whatsapp.net', '')}\n`
            teks += `⬡ *GRUP :* ${mdata.subject}`
@@ -47,7 +47,7 @@ module.exports = welcome = async (geps, anu) => {
            mdata = await geps.groupMetadata(anu.jid)
            num = anu.participants[0]
            console.log(anu)
-           teks = `─ 「 *DEMOTE DETECT* 」 ─\n\n`
+           teks = `─ 「 *DEMOTE DETECTED* 」 ─\n\n`
            teks += `⬡ *USER :* @${num.split('@')[0]}\n`
            teks += `⬡ *NOMOR :* ${num.replace('@s.whatsapp.net', '')}\n`
            teks += `⬡ *GRUP :* ${mdata.subject}`
