@@ -611,7 +611,7 @@ exports.sewabot = (nomerowner) => {
 │• PERINTAH KICK
 ╰────
 📍 MINAT?
-CHAT : http://wa.me/${nomerowner}?text=Assalamu'alaikum+Kak+Mau+Sewa+Bot+Nya
+CHAT : http://wa.me/${nomerowner}?text=Halo+Kak+Mau+Sewa+Bot+Nya
 
 SISTEM MASUKIN BOT - TF - DONE
 PEMBAYARAN💸
@@ -623,21 +623,21 @@ AMAN? 100% AMAN NO TIPU MALAHAN AMANAH`
 }
 
 exports.upprembot = (nomerowner) => {
-  return`*「 LAYNA IKLAN 」*
+  return`*「 IKLAN 」*
 
 ❑ Upgrade Premium : 5K/BULAN
 ❑ Perpanjang Premium: 2K/BULAN
 ❑ Premium + Sewa Bot : 5K (Promo)
-❑ Order : wa.me/${nomerowner}?text=BANG+MAU+UPGRADE+PREMIUM
+❑ Order : wa.me/${nomerowner}?text=Kak+Mau+Upgrade+Premium.
 ────────────────────
 ❑ Sewa Bot Ke Grup : 10K/BULAN
 ❑ Perpanjang : 5K/BULAN
-❑ Order : wa.me/${nomerowner}?text=BANG+MAU+SEWA+BOTNYA+KE+GRUP+SAYA
+❑ Order : wa.me/${nomerowner}?text=Kak+Mau+Sewa+Bot+Nya.
 ────────────────────
 ❑ Pembayaran : DANA/OVO/GOPAY/PULSA 
 ❑ Note : KIRIM SCREENSHOT SEBAGAI BUKTI KE NOMOR wa.me/${nomerowner}
 
-*「 LAYNA BOT OFFICIAL 」*`
+*「 WhatsApp Bot Official 」*`
 }
 
 exports.listkode = () => {
